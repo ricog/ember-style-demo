@@ -1,1 +1,6 @@
-{{yield}}
+{{#if isTextarea}}
+  {{textarea value=value placeholder=label}}
+{{else}}
+  <label for=inputId>{{label}}</label>
+  {{input value=value}}
+{{/if}}
