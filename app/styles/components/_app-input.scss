@@ -1,0 +1,6 @@
+.app-input {
+  @extend .form-group;
+  input, textarea {
+    @extend .form-control;
+  }
+}

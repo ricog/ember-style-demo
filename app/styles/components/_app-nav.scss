@@ -1,0 +1,14 @@
+.app-nav {
+  nav {
+    @extend .navbar;
+    @extend .navbar-default;
+    min-height: auto;
+    ul {
+      @extend .nav;
+      @extend .nav-justified;
+      a {
+        color: #777777;
+      }
+    }
+  }
+}
