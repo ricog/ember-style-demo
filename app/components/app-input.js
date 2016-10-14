@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  classNames: ['app-input'],
+  classNames: ['app-input', 'form-group'],
   type: null,
 
   isTextarea: Ember.computed('type', function() {

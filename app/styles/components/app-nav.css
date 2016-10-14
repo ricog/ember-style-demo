@@ -1,0 +1,6 @@
+.app-nav nav {
+  min-height: auto;
+}
+.app-nav nav ul a {
+  color: #777;
+}

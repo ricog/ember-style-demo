@@ -1,6 +1,6 @@
 {{#if isTextarea}}
-  {{textarea value=value placeholder=label}}
+  {{textarea value=value placeholder=label class="form-control"}}
 {{else}}
   <label for=inputId>{{label}}</label>
-  {{input value=value}}
+  {{input value=value class="form-control"}}
 {{/if}}
