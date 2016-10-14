@@ -1,0 +1,14 @@
+.route-application {
+  @extend .container;
+  min-width: 342px;
+
+  h3 {
+    color: #777;
+  }
+  >.wrapper {
+    @include make-row();
+    >div {
+      @extend .theme-full-page;
+    }
+  }
+}

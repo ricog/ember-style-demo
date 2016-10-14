@@ -1,0 +1,7 @@
+.contact-form {
+  button {
+    @extend .btn;
+    @extend .btn-primary;
+    @extend .pull-right;
+  }
+}

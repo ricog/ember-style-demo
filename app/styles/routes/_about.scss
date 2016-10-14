@@ -1,0 +1,23 @@
+.route-about {
+  .contact {
+    @extend .well;
+    @include make-md-column(6);
+    .contact-form {
+      @extend .clearfix;
+      div:nth-child(3) {
+        @include make-xs-column(9);
+        padding-left: 0;
+      }
+      button {
+        @include make-xs-column(3);
+        height: 51px;
+        padding-left: 1px;
+        padding-right: 1px;
+        white-space: normal;
+      }
+    }
+  }
+  .address {
+    @include make-md-column(6);
+  }
+}
