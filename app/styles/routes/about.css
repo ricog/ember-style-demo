@@ -1,0 +1,21 @@
+.route-about .contact .contact-form div:nth-child(3) {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 0px;
+  float: left;
+  width: 75%;
+}
+.route-about .contact .contact-form button {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 25%;
+
+  height: 53px;
+  padding-left: 1px;
+  padding-right: 1px;
+  white-space: normal;
+}
